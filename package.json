@@ -1,0 +1,12 @@
+{
+  "name": "railblock",
+  "version": "1.0.0",
+  "description": "One coordinated block plan for **Engineering (TMS)**, **Signal & Telecom (SMMS)** and **Traction / TRD (TDMS)**, built around the **train time table and goods forecast from the Control Office (COA)**, and approved by COA.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

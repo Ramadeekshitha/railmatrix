@@ -1,0 +1,15 @@
+dataset,column,role,relationship
+assets.csv,asset_id,PK,Referenced by maintenance_requests.asset_id
+assets.csv,corridor_id + route_section,Business key,"Shared with maintenance, trains and blocks"
+maintenance_requests.csv,request_id,PK,Referenced by dependency_request_id and conflicts
+maintenance_requests.csv,asset_id,FK,→ assets.asset_id
+maintenance_requests.csv,corridor_id + route_section,Business key,→ assets / trains / blocks
+maintenance_requests.csv,required_resource_type,FK-like,Matches resources.resource_type within department
+train_movements.csv,train_id,PK,Referenced by train conflict records
+train_movements.csv,corridor_id + route_section + line + movement_date,Business key,Used to determine operational conflicts
+block_windows.csv,block_id,PK,Target assignment key for optimizer output
+block_windows.csv,corridor_id + route_section + line + date,Business key,Must match maintenance/trains for feasibility
+resources.csv,resource_id,PK,Allocated by optimizer; source availability
+resources.csv,department + resource_type,Capacity key,Used for resource feasibility/conflict detection
+detected_conflicts.csv,conflict_id,PK,"Derived validation dataset, not source input"
+detected_conflicts.csv,entity_a_id/entity_b_id,FK-like,References maintenance request or train according to entity type

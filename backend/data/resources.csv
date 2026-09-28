@@ -1,0 +1,139 @@
+resource_id,department,resource_type,skill,home_corridor_id,available_from,available_until,quantity,status
+RES-000001,Engineering,Track Machine,P.Way Technician,COR-04,00:00,23:59,1,Available
+RES-000002,Engineering,Track Machine,Track Machine Operator,COR-04,00:00,23:59,1,Available
+RES-000003,Engineering,Track Machine,Bridge Inspector,COR-04,00:00,23:59,1,Available
+RES-000004,Engineering,Track Machine,Bridge Inspector,COR-03,00:00,23:59,1,Available
+RES-000005,Engineering,Track Machine,P.Way Technician,COR-04,00:00,23:59,1,Available
+RES-000006,Engineering,Track Machine,P.Way Technician,COR-04,00:00,23:59,1,Available
+RES-000007,Engineering,Track Machine,Track Supervisor,COR-02,00:00,23:59,1,Available
+RES-000008,Engineering,Track Machine,P.Way Technician,COR-01,00:00,23:59,1,Available
+RES-000009,Engineering,Track Machine,Track Machine Operator,COR-03,00:00,23:59,1,Available
+RES-000010,Engineering,Track Machine,Track Supervisor,COR-03,00:00,23:59,1,Available
+RES-000011,Engineering,Track Machine,Bridge Inspector,COR-04,00:00,23:59,1,Available
+RES-000012,Engineering,Track Machine,Bridge Inspector,COR-01,00:00,23:59,1,Available
+RES-000013,Engineering,Crane,Track Machine Operator,COR-03,00:00,23:59,1,Available
+RES-000014,Engineering,Crane,Bridge Inspector,COR-01,00:00,23:59,1,Available
+RES-000015,Engineering,Crane,Bridge Inspector,COR-01,00:00,23:59,1,Available
+RES-000016,Engineering,Crane,Track Machine Operator,COR-03,00:00,23:59,1,Available
+RES-000017,Engineering,Crane,P.Way Technician,COR-03,00:00,23:59,1,Available
+RES-000018,Engineering,Crane,P.Way Technician,COR-01,00:00,23:59,1,Available
+RES-000019,Engineering,Crane,Track Supervisor,COR-02,00:00,23:59,1,Available
+RES-000020,Engineering,Crane,Track Machine Operator,COR-01,00:00,23:59,1,Available
+RES-000021,Engineering,Crane,Track Supervisor,COR-02,00:00,23:59,1,Available
+RES-000022,Engineering,Crane,Track Machine Operator,COR-01,00:00,23:59,1,Available
+RES-000023,Engineering,Crane,Bridge Inspector,COR-04,00:00,23:59,1,Available
+RES-000024,Engineering,Crane,Track Machine Operator,COR-04,00:00,23:59,1,Available
+RES-000025,Engineering,Inspection Vehicle,Track Machine Operator,COR-03,00:00,23:59,1,Available
+RES-000026,Engineering,Inspection Vehicle,Track Machine Operator,COR-03,00:00,23:59,1,Available
+RES-000027,Engineering,Inspection Vehicle,Track Supervisor,COR-01,00:00,23:59,1,Available
+RES-000028,Engineering,Inspection Vehicle,Bridge Inspector,COR-04,00:00,23:59,1,Available
+RES-000029,Engineering,Inspection Vehicle,Bridge Inspector,COR-01,00:00,23:59,1,Available
+RES-000030,Engineering,Inspection Vehicle,Track Supervisor,COR-02,00:00,23:59,1,Available
+RES-000031,Engineering,Inspection Vehicle,Bridge Inspector,COR-03,00:00,23:59,1,Available
+RES-000032,Engineering,Inspection Vehicle,Bridge Inspector,COR-03,00:00,23:59,1,Available
+RES-000033,Engineering,Inspection Vehicle,P.Way Technician,COR-02,00:00,23:59,1,Available
+RES-000034,Engineering,Inspection Vehicle,P.Way Technician,COR-01,00:00,23:59,1,Available
+RES-000035,Engineering,Inspection Vehicle,Bridge Inspector,COR-03,00:00,23:59,1,Available
+RES-000036,Engineering,Inspection Vehicle,Bridge Inspector,COR-02,00:00,23:59,1,Available
+RES-000037,Engineering,Maintenance Van,Track Supervisor,COR-01,00:00,23:59,1,Available
+RES-000038,Engineering,Maintenance Van,Track Machine Operator,COR-01,00:00,23:59,1,Available
+RES-000039,Engineering,Maintenance Van,P.Way Technician,COR-02,00:00,23:59,1,Available
+RES-000040,Engineering,Maintenance Van,Bridge Inspector,COR-02,00:00,23:59,1,Available
+RES-000041,Engineering,Maintenance Van,Bridge Inspector,COR-02,00:00,23:59,1,Available
+RES-000042,Engineering,Maintenance Van,Bridge Inspector,COR-03,00:00,23:59,1,Available
+RES-000043,Engineering,Maintenance Van,P.Way Technician,COR-01,00:00,23:59,1,Available
+RES-000044,Engineering,Maintenance Van,Track Supervisor,COR-02,00:00,23:59,1,Available
+RES-000045,Engineering,Maintenance Van,Track Supervisor,COR-03,00:00,23:59,1,Available
+RES-000046,Engineering,Maintenance Van,Bridge Inspector,COR-01,00:00,23:59,1,Available
+RES-000047,Engineering,Maintenance Van,P.Way Technician,COR-04,00:00,23:59,1,Available
+RES-000048,Engineering,Maintenance Van,P.Way Technician,COR-04,00:00,23:59,1,Available
+RES-000049,Engineering,Maintenance Van,Track Supervisor,COR-01,00:00,23:59,1,Available
+RES-000050,Engineering,Maintenance Van,Bridge Inspector,COR-03,00:00,23:59,1,Available
+RES-000051,Engineering,Maintenance Van,Track Machine Operator,COR-04,00:00,23:59,1,Available
+RES-000052,Engineering,Maintenance Van,Track Machine Operator,COR-03,00:00,23:59,1,Available
+RES-000053,Engineering,Maintenance Van,Track Machine Operator,COR-02,00:00,23:59,1,Available
+RES-000054,Engineering,Maintenance Van,Track Machine Operator,COR-02,00:00,23:59,1,Available
+RES-000055,S&T,Testing Kit,Signal Technician,COR-01,00:00,23:59,1,Available
+RES-000056,S&T,Testing Kit,Interlocking Technician,COR-04,00:00,23:59,1,Available
+RES-000057,S&T,Testing Kit,Telecom Technician,COR-03,00:00,23:59,1,Available
+RES-000058,S&T,Testing Kit,Telecom Technician,COR-04,00:00,23:59,1,Available
+RES-000059,S&T,Testing Kit,Interlocking Technician,COR-01,00:00,23:59,1,Available
+RES-000060,S&T,Testing Kit,Telecom Technician,COR-03,00:00,23:59,1,Available
+RES-000061,S&T,Testing Kit,S&T Supervisor,COR-02,00:00,23:59,1,Available
+RES-000062,S&T,Testing Kit,Signal Technician,COR-02,00:00,23:59,1,Available
+RES-000063,S&T,Testing Kit,Signal Technician,COR-04,00:00,23:59,1,Available
+RES-000064,S&T,Testing Kit,Signal Technician,COR-01,00:00,23:59,1,Available
+RES-000065,S&T,Testing Kit,Telecom Technician,COR-04,00:00,23:59,1,Available
+RES-000066,S&T,Testing Kit,Interlocking Technician,COR-04,00:00,23:59,1,Available
+RES-000067,S&T,Signal Testing Kit,Telecom Technician,COR-03,00:00,23:59,1,Available
+RES-000068,S&T,Signal Testing Kit,S&T Supervisor,COR-02,00:00,23:59,1,Available
+RES-000069,S&T,Signal Testing Kit,Signal Technician,COR-04,00:00,23:59,1,Available
+RES-000070,S&T,Signal Testing Kit,S&T Supervisor,COR-03,00:00,23:59,1,Available
+RES-000071,S&T,Signal Testing Kit,S&T Supervisor,COR-04,00:00,23:59,1,Available
+RES-000072,S&T,Signal Testing Kit,Interlocking Technician,COR-04,00:00,23:59,1,Available
+RES-000073,S&T,Signal Testing Kit,Signal Technician,COR-04,00:00,23:59,1,Available
+RES-000074,S&T,Signal Testing Kit,Interlocking Technician,COR-01,00:00,23:59,1,Available
+RES-000075,S&T,Signal Testing Kit,Telecom Technician,COR-03,00:00,23:59,1,Available
+RES-000076,S&T,Signal Testing Kit,S&T Supervisor,COR-03,00:00,23:59,1,Available
+RES-000077,S&T,Signal Testing Kit,Signal Technician,COR-04,00:00,23:59,1,Available
+RES-000078,S&T,Signal Testing Kit,Interlocking Technician,COR-04,00:00,23:59,1,Available
+RES-000079,S&T,Maintenance Van,Signal Technician,COR-04,00:00,23:59,1,Available
+RES-000080,S&T,Maintenance Van,Interlocking Technician,COR-02,00:00,23:59,1,Available
+RES-000081,S&T,Maintenance Van,Telecom Technician,COR-02,00:00,23:59,1,Available
+RES-000082,S&T,Maintenance Van,Signal Technician,COR-03,00:00,23:59,1,Available
+RES-000083,S&T,Maintenance Van,Signal Technician,COR-03,00:00,23:59,1,Available
+RES-000084,S&T,Maintenance Van,Interlocking Technician,COR-01,00:00,23:59,1,Available
+RES-000085,S&T,Maintenance Van,S&T Supervisor,COR-01,00:00,23:59,1,Available
+RES-000086,S&T,Maintenance Van,S&T Supervisor,COR-01,00:00,23:59,1,Available
+RES-000087,S&T,Maintenance Van,Signal Technician,COR-04,00:00,23:59,1,Available
+RES-000088,S&T,Maintenance Van,Interlocking Technician,COR-01,00:00,23:59,1,Available
+RES-000089,S&T,Maintenance Van,Signal Technician,COR-01,00:00,23:59,1,Available
+RES-000090,S&T,Maintenance Van,S&T Supervisor,COR-04,00:00,23:59,1,Available
+RES-000091,S&T,Maintenance Van,Signal Technician,COR-01,00:00,23:59,1,Available
+RES-000092,S&T,Maintenance Van,Signal Technician,COR-03,00:00,23:59,1,Available
+RES-000093,S&T,Maintenance Van,Telecom Technician,COR-03,00:00,23:59,1,Available
+RES-000094,S&T,Maintenance Van,S&T Supervisor,COR-01,00:00,23:59,1,Available
+RES-000095,S&T,Maintenance Van,Signal Technician,COR-03,00:00,23:59,1,Available
+RES-000096,S&T,Maintenance Van,Telecom Technician,COR-01,00:00,23:59,1,Available
+RES-000097,TD,OHE Tower Wagon,OHE Authorized Supervisor,COR-01,00:00,23:59,1,Available
+RES-000098,TD,OHE Tower Wagon,OHE Authorized Supervisor,COR-01,00:00,23:59,1,Available
+RES-000099,TD,OHE Tower Wagon,OHE Technician,COR-02,00:00,23:59,1,Available
+RES-000100,TD,OHE Tower Wagon,Traction Technician,COR-04,00:00,23:59,1,Available
+RES-000101,TD,OHE Tower Wagon,OHE Authorized Supervisor,COR-03,00:00,23:59,1,Available
+RES-000102,TD,OHE Tower Wagon,Electrical Supervisor,COR-01,00:00,23:59,1,Available
+RES-000103,TD,OHE Tower Wagon,Electrical Supervisor,COR-02,00:00,23:59,1,Available
+RES-000104,TD,OHE Tower Wagon,OHE Authorized Supervisor,COR-04,00:00,23:59,1,Available
+RES-000105,TD,OHE Tower Wagon,Electrical Supervisor,COR-02,00:00,23:59,1,Available
+RES-000106,TD,OHE Tower Wagon,OHE Authorized Supervisor,COR-04,00:00,23:59,1,Available
+RES-000107,TD,OHE Tower Wagon,OHE Technician,COR-03,00:00,23:59,1,Available
+RES-000108,TD,OHE Tower Wagon,OHE Authorized Supervisor,COR-04,00:00,23:59,1,Available
+RES-000109,TD,Electrical Testing Kit,Electrical Supervisor,COR-02,00:00,23:59,1,Available
+RES-000110,TD,Electrical Testing Kit,Traction Technician,COR-04,00:00,23:59,1,Available
+RES-000111,TD,Electrical Testing Kit,Electrical Supervisor,COR-03,00:00,23:59,1,Available
+RES-000112,TD,Electrical Testing Kit,Electrical Supervisor,COR-04,00:00,23:59,1,Available
+RES-000113,TD,Electrical Testing Kit,Traction Technician,COR-02,00:00,23:59,1,Available
+RES-000114,TD,Electrical Testing Kit,Electrical Supervisor,COR-03,00:00,23:59,1,Available
+RES-000115,TD,Electrical Testing Kit,OHE Technician,COR-02,00:00,23:59,1,Available
+RES-000116,TD,Electrical Testing Kit,Traction Technician,COR-02,00:00,23:59,1,Available
+RES-000117,TD,Electrical Testing Kit,OHE Technician,COR-01,00:00,23:59,1,Available
+RES-000118,TD,Electrical Testing Kit,OHE Authorized Supervisor,COR-01,00:00,23:59,1,Available
+RES-000119,TD,Electrical Testing Kit,OHE Authorized Supervisor,COR-02,00:00,23:59,1,Available
+RES-000120,TD,Electrical Testing Kit,OHE Authorized Supervisor,COR-04,00:00,23:59,1,Available
+RES-000121,TD,Maintenance Van,OHE Technician,COR-02,00:00,23:59,1,Available
+RES-000122,TD,Maintenance Van,OHE Authorized Supervisor,COR-03,00:00,23:59,1,Available
+RES-000123,TD,Maintenance Van,Electrical Supervisor,COR-03,00:00,23:59,1,Available
+RES-000124,TD,Maintenance Van,OHE Technician,COR-04,00:00,23:59,1,Available
+RES-000125,TD,Maintenance Van,Traction Technician,COR-04,00:00,23:59,1,Available
+RES-000126,TD,Maintenance Van,OHE Authorized Supervisor,COR-03,00:00,23:59,1,Available
+RES-000127,TD,Maintenance Van,OHE Technician,COR-04,00:00,23:59,1,Available
+RES-000128,TD,Maintenance Van,OHE Authorized Supervisor,COR-03,00:00,23:59,1,Available
+RES-000129,TD,Maintenance Van,OHE Technician,COR-04,00:00,23:59,1,Available
+RES-000130,TD,Maintenance Van,OHE Technician,COR-03,00:00,23:59,1,Available
+RES-000131,TD,Maintenance Van,OHE Authorized Supervisor,COR-01,00:00,23:59,1,Available
+RES-000132,TD,Maintenance Van,OHE Authorized Supervisor,COR-03,00:00,23:59,1,Available
+RES-000133,TD,Maintenance Van,Traction Technician,COR-02,00:00,23:59,1,Available
+RES-000134,TD,Maintenance Van,Traction Technician,COR-04,00:00,23:59,1,Available
+RES-000135,TD,Maintenance Van,Traction Technician,COR-03,00:00,23:59,1,Available
+RES-000136,TD,Maintenance Van,Traction Technician,COR-02,00:00,23:59,1,Available
+RES-000137,TD,Maintenance Van,Electrical Supervisor,COR-04,00:00,23:59,1,Available
+RES-000138,TD,Maintenance Van,Electrical Supervisor,COR-02,00:00,23:59,1,Available
