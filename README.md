@@ -103,7 +103,7 @@ npm run dev                                    # http://localhost:5173
 
 **Reset the demo data:** start with `RESET=1 uvicorn app.main:app`, or call `POST /api/reset`. API docs are at http://localhost:8000/docs.
 
-## 6. Demo assumptions (say these to the judges)
+## 6. Demo assumptions
 
 - Data is the synthetic dataset (seed 42). The plan date is fixed at **28-Sep-2026** (`config.PLAN_START`), the first day of the data. For the demo, COA has already approved the first 3 days.
 - Sections are laid on real Guntakal-division stretches with approximate station coordinates. KM → lat/long is linear along the line. Swap in the division's KM-post GIS layer in `geo.py`.
