@@ -1,6 +1,7 @@
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 // Thin wrapper over the FastAPI backend (proxied at /api by Vite).
 async function call(path, options = {}) {
-  const res = await fetch(`/api${path}`, {
+  const res = await fetch(`${API_URL}/api${path}`, {
     headers: { "Content-Type": "application/json" },
     ...options,
     body: options.body ? JSON.stringify(options.body) : undefined,
@@ -27,7 +28,7 @@ export const api = {
   planSummary: (horizon) => call(`/plan/summary?horizon=${horizon}`),
   timetableUploads: () => call("/timetable/uploads"),
   uploadTimetable: async (file) => {
-    const res = await fetch(`/api/timetable/uploads?filename=${encodeURIComponent(file.name)}`, {
+    const res = await fetch(`${API_URL}/api/timetable/uploads?filename=${encodeURIComponent(file.name)}`, {
       method: "POST",
       headers: { "Content-Type": file.type || "application/octet-stream" },
       body: file,
@@ -39,5 +40,5 @@ export const api = {
     return res.json();
   },
   deleteTimetable: (id) => call(`/timetable/uploads/${id}`, { method: "DELETE" }),
-  timetableFileUrl: (id) => `/api/timetable/uploads/${id}`,
+  timetableFileUrl: (id) => `${API_URL}/api/timetable/uploads/${id}`,
 };

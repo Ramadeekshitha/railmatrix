@@ -4,3 +4,5 @@ __pycache__/
 *.db
 .venv/
 backend/data/timetable_uploads/
+.env
+frontend/.env
