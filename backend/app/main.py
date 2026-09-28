@@ -18,6 +18,14 @@ from . import config, geo, planner, store
 from .priority import PriorityModel
 
 app = FastAPI(title="RailBlock – AI Block Planning API")
+
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "service": "RailMatrix API",
+        "message": "FastAPI backend is running"
+    }
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 ref = store.Reference()
@@ -323,7 +331,7 @@ import json
 import re
 import uuid
 
-TT_DIR = config.DATA_DIR / "timetable_uploads"
+TT_DIR = config.UPLOAD_DIR
 TT_INDEX = TT_DIR / "index.json"
 TT_TYPES = {
     ".pdf": "application/pdf", ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",

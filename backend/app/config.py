@@ -1,12 +1,19 @@
 """
 All tunable rules in one place.  Change a number here, re-run the planner, see the effect.
 """
+import os
 from datetime import datetime
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-DB_PATH = BASE_DIR / "railblock.db"
+if os.environ.get("VERCEL"):
+    DB_PATH = Path("/tmp/railblock.db")
+    UPLOAD_DIR = Path("/tmp/timetable_uploads")
+else:
+    DB_PATH = BASE_DIR / "railblock.db"
+    UPLOAD_DIR = DATA_DIR / "timetable_uploads"
+
 
 # "Today" for the planner. The sample dataset starts on 28-Sep-2026.
 PLAN_START = datetime(2026, 9, 28, 0, 0)
